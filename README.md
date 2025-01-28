@@ -33,6 +33,7 @@ How many times have you found yourself building a website for a company and real
    SMTP_HOST=authsmtp
    SMTP_EMAIL=info@email-domain.com
    SMTP_PASSWORD=this-is-your-password
+   EMAIL_OWNER=info@email-domain.com
 5. Start the service:  
     ```
      nodemon server.js
