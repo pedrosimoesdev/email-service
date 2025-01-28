@@ -2,7 +2,7 @@
 
 ## Why Another Email Service? 
 
-You might be thinking, "Great, just what we needed, another email service." Well, hold your horses, my friend. We're not here to reinvent the wheel—just to make it spin a little smoother. While most email services out there focus on doing the basics (sending and receiving emails), we decided to take it up a notch. We're not just sending emails; we're sending joy, peace of mind, and the occasional email that doesn’t get stuck in spam.
+You might be thinking, "Great, just what we needed, another email service." Well, hold your horses, my friend. We're not here to reinvent the wheel just to make it spin a little smoother. While most email services out there focus on doing the basics (sending and receiving emails), we decided to take it up a notch. We're not just sending emails; we're sending joy, peace of mind, and the occasional email that doesn’t get stuck in spam.
 
 How many times have you found yourself building a website for a company and realized, "Oh wait, I have to build a backend just to send emails"? Seriously, who has time for that? Well, lucky for you, I’m here to save the day. Skip the hassle, just use my backend, and voilà—you’re ready to send emails without reinventing the wheel (or your entire backend). Simple, efficient, and with a touch of humor. You’re welcome.
 
