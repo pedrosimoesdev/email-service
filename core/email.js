@@ -11,7 +11,7 @@ exports.transporterEmail = () => {
             pass:  process.env.SMTP_PASSWORD       // Your smtp email password
         },
         tls: {
-            rejectUnauthorized: false             // Prevent issues with self-signed certificates
+            rejectUnauthorized: false
         }
     });
 }
@@ -19,11 +19,11 @@ exports.transporterEmail = () => {
 exports.mailOption = (req) => {
     return {
         from: process.env.SMTP_EMAIL,
-        to: req.email,  // Add your recipient's email
+        to: req.email,
         bcc: process.env.EMAIL_OWNER,
         subject: req.subject,
         text: req.message,
-        html: contentHTML(req), // The HTML content with the footer
+        html: contentHTML(req),
     }
 }
 

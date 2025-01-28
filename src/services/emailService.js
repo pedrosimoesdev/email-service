@@ -7,9 +7,8 @@ exports.sendEmail = async (req) => {
             core.transporterEmail().sendMail(core.mailOption(req), (error, info) => {
                 if (error) {
                     console.log('Error sending email:', error);
-                    return reject(new Error('Failed to send email: ' + error.message)); // Reject the Promise with an error
+                    return reject(new Error('Failed to send email: ' + error.message));
                 }
-                // return json with success,if you want a message, replace variable info to your message
                 resolve(info);
             });
         });
